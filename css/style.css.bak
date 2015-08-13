@@ -3,7 +3,10 @@
 body, html { height: 100%; }
 
     .onoffswitch {
-        position: relative; width: 90px;
+        position: absolute; width: 90px; 
+        left:50%;
+        top:50%;
+        z-index:100;
         -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
     }
     .onoffswitch-checkbox {
