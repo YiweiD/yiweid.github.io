@@ -248,6 +248,7 @@ html, body { height: 100%; }
 
 @media only screen and ( max-width: 767px) { 
 	body { min-width: 320px;}
+	.onoffswitch{-webkit-appearance: none;}
 	.shell { max-width: 100%; }
 	.main { padding-top: 260px !important; margin-top: 0; }
 	a.view { background: url(images/bullet.png) no-repeat 0 8px; padding-left: 8px; font-size: 10px; float: right;  }
