@@ -30,5 +30,10 @@ nav{
     position:fixed;
     top:0px;
     left:0px;
-    
+}
+#menu div:hover{
+    color:#FFFFFF;
+    background-color:#E0E0E0;
+    transition-duration: 0.7s;
+
 }
