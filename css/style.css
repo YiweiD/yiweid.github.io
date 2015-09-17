@@ -37,3 +37,23 @@ nav{
     transition-duration: 0.7s;
 
 }
+.vegas-slide{
+    height:600px;
+}
+.vegas-timer-progress{
+    display:none;
+}
+#welcomeText{
+    position:relative;
+    z-index:200;
+    top:200px;
+    left:25%;
+    width:700px;
+    font-size:35px;
+    color:#FBFBF0;
+    font-family:Arial;
+    
+}
+.examples{
+    display:none;
+}
