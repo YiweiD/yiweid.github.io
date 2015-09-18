@@ -74,12 +74,12 @@ nav{
 #quickIntro{
     position:absolute;
     top:500px;
-    background: -moz-linear-gradient(top,  rgba(85,87,87,0.02) 0%, rgba(75,76,76,0.02) 6%, rgba(37,37,37,0.88) 28%, rgba(5,5,5,1) 46%, rgba(0,0,0,1) 49%, rgba(5,5,5,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,87,87,0.02)), color-stop(6%,rgba(75,76,76,0.02)), color-stop(28%,rgba(37,37,37,0.88)), color-stop(46%,rgba(5,5,5,1)), color-stop(49%,rgba(0,0,0,1)), color-stop(100%,rgba(5,5,5,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(85,87,87,0.02) 0%,rgba(75,76,76,0.02) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(85,87,87,0.02) 0%,rgba(75,76,76,0.02) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(85,87,87,0.02) 0%,rgba(75,76,76,0.02) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(85,87,87,0.02) 0%,rgba(75,76,76,0.02) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* W3C */
+    background: -moz-linear-gradient(top,  rgba(85,87,87,0.01) 0%, rgba(75,76,76,0.01) 6%, rgba(37,37,37,0.88) 28%, rgba(5,5,5,1) 46%, rgba(0,0,0,1) 49%, rgba(5,5,5,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,87,87,0.01)), color-stop(6%,rgba(75,76,76,0.01)), color-stop(28%,rgba(37,37,37,0.88)), color-stop(46%,rgba(5,5,5,1)), color-stop(49%,rgba(0,0,0,1)), color-stop(100%,rgba(5,5,5,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(85,87,87,0.01) 0%,rgba(75,76,76,0.01) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(85,87,87,0.01) 0%,rgba(75,76,76,0.01) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(85,87,87,0.01) 0%,rgba(75,76,76,0.01) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(85,87,87,0.01) 0%,rgba(75,76,76,0.01) 6%,rgba(37,37,37,0.88) 28%,rgba(5,5,5,1) 46%,rgba(0,0,0,1) 49%,rgba(5,5,5,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05555757', endColorstr='#050505',GradientType=0 ); /* IE6-9 */
     left:0px;
     width:100%;
@@ -91,7 +91,7 @@ nav{
     margin-left:70px;
     margin-top:200px;
     font-size:30px;
-    text-transform:uppercase???¡§?o?
+    text-transform:uppercase;
 }
 #quickIntro p{
     width:400px;
