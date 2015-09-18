@@ -91,7 +91,7 @@ nav{
     margin-left:70px;
     margin-top:200px;
     font-size:30px;
-    text-transform:uppercase??¡ìo?
+    text-transform:uppercase???¡§?o?
 }
 #quickIntro p{
     width:400px;
@@ -135,10 +135,12 @@ nav{
 #quickPhotography img:hover{
     opacity:1;
 }
-@media screen and (max-width: 1000px) {
-/* applies only if the screen is narrower than 500px */
+@media screen and (max-width: 1200px) {
+/* applies only if the screen is narrower than 1200px */
   #quickIntro{
     width:130%;
+    top:480px;
+    
   }
   #quickPhotography{
       width:130%;
