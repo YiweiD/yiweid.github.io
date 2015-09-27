@@ -1,4 +1,28 @@
 /************MENU*********/
+.navbar{
+    font-family: BankGothic Lt BT, sans-serif;
+    font-size:17px;
+}
+.navbar ul>li{
+    padding:0 10px;
+}
+.navbar img{
+    height:70px;
+    width:180px;
+    position:relative;
+    top:-23px;
+    left:-70px;
+    
+}
+
+
+
+#menu{
+    display:none;
+}
+#menubg{
+    display:none;
+}
 nav{
     font-family: BankGothic Lt BT, sans-serif;
     font-size:20px;
