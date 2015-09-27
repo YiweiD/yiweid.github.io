@@ -182,7 +182,7 @@ nav{
     width:300px;
     margin:5px;
     opacity:0.9;
-    
+}
     
     
 @media screen and (max-width: 1200px) {
@@ -194,5 +194,10 @@ nav{
   }
   #quickPhotography{
       width:130%;
+  }
+}
+@media screen and (max-width:767px) {
+    .navbar img{
+      display:none;
   }
 }
