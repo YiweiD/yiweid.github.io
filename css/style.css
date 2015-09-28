@@ -1,4 +1,5 @@
 /************MENU*********/
+/* bootstrap
 .navbar{
     font-family: BankGothic Lt BT, sans-serif;
     font-size:17px;
@@ -14,15 +15,10 @@
     left:-70px;
     
 }
+*/
 
 
 
-#menu{
-    display:none;
-}
-#menubg{
-    display:none;
-}
 nav{
     font-family: BankGothic Lt BT, sans-serif;
     font-size:20px;
