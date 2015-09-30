@@ -160,7 +160,7 @@ nav{
 #quickArtworks{
     position:absolute;
     width:100%;
-    height:1200px;
+    height:900px;
     left:0px;
     top: 2200px;
     background-color:#000;
@@ -180,7 +180,54 @@ nav{
     opacity:0.9;
 }
     
-    
+/*******Misc*******/
+#quickMisc{
+    position:absolute;
+    width:100%;
+    height: 900px;
+    left:0px;
+    top:3100px;
+    background-color:#000;
+    color:#FFF;
+}
+#quickMisc h3{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:arial;
+    position:relative;
+    top:-50px;
+}
+#quickMisc img{
+    width:300px;
+    margin:5px;
+    opacity:0.9;
+
+}    
+/*******Skills*******/
+#quickSkills{
+    position:absolute;
+    width:100%;
+    height: 900px;
+    left:0px;
+    top:4000px;
+    background-color:#000;
+    color:#FFF;
+}
+#quickSkills h3{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:arial;
+    position:relative;
+    top:-50px;
+}
+#quickSkills img{
+    width:300px;
+    margin:5px;
+    opacity:0.9;
+
+}   
 @media screen and (max-width: 1200px) {
 /* applies only if the screen is narrower than 1200px */
   #quickIntro{
