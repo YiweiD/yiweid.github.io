@@ -30,7 +30,7 @@ nav{
 }
 #menu div{
     float:left;
-    padding:20px;
+    padding:15px;
     width:150px;
     height:30px;
     background-color:#FBFBFB;
@@ -46,11 +46,11 @@ nav{
     top:0px;
     width:100%;
     left:0px;
-    height:70px;
+    height:60px;
     z-index:500;
 }
 #menu img{ /*menu logo image*/
-    height:70px;
+    height:60px;
     width:180px;
     position:fixed;
     top:0px;
@@ -62,7 +62,9 @@ nav{
     background-color:#E0E0E0;
     transition-duration: 0.7s;
 }
-
+.container #menu{
+    width:1300px;
+}
 
 /*******Image slides*******/
 .vegas-slide{
@@ -228,17 +230,28 @@ nav{
     opacity:0.9;
 
 }   
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
 /* applies only if the screen is narrower than 1200px */
   #quickIntro{
     width:130%;
     top:480px;
     
   }
-  #quickPhotography{
-      width:130%;
+  #quickPhotography,#quickArtworks,#quickMisc,#quickSkills{
+    width:130%;
+    
   }
 }
+@media screen 
+    and (min-width: 1220px) 
+    and (max-width: 1300px) {
+        #quickIntro,#quickPhotography,#quickArtworks,#quickMisc,#quickSkills{
+            width:104%;
+        }
+    }
+@media screen and (max-width: 980px) {
+	/*some code for the img and h3 position*/
+	}
 @media screen and (max-width:767px) {
     .navbar img{
       display:none;
