@@ -250,7 +250,6 @@ nav{
         }
     }
 @media screen and (max-width: 980px) {
-	/*some code for the img and h3 position*/
 	}
 @media screen and (max-width:767px) {
     .navbar img{
