@@ -28,6 +28,9 @@ nav{
     z-index:100;
     left:0px;
 }
+*{
+    cursor:wait;
+}
 #menu div{
     float:left;
     padding:15px;
