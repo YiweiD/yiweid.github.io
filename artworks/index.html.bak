@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 	<head>
 	<script type="text/javascript">
-  <!--
-  if (screen.width <= 800) {
-    window.location = "http://yiweid.github.io/navbartest/";
-  }
-  //-->
+  
 	</script>
-	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>	
-	<link rel="stylesheet" href="css/vegas.min.css">
 	<script src="js/functions.js" type="text/javascript"></script>
-	<script src="js/vegas.min.js"></script>
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	
-	
-	<title>Artworks page</title>
+	<title>Photography page</title>
 	</head>
 	<body>
+		<div class='container' class='menuContainer'>
 		<nav id='menu'>
 			<a href="../index.html"><div><img src="../images/test_logo.png" alt="Website logo"></div></a>
  			<a href="../index.html"><div>Home</div></a>
@@ -25,6 +21,44 @@
  			<a href="../website/index.html"><div>Website</div></a>
  			<a href='../contactme/index.html'><div>Contact me</div></a>
 		</nav>
+		</div>
+		<div class='bodyContainer'>
+			<h3>Artwork Display</h3>
+			<button id='type1' type='button'>Drawing</button>
+			<button id='type2' type='button'>Papercraft</button>
+			<button id='type3' type='button'>Other</button>
+			<button id='type4' type='button'>All</button>
+			
+			<div class='type1'>
+			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
+			</div>
+			<div class='type2'>
+			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
+			</div>
+			<div class='type3'>
+			<a href="../images/test2.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			</div>
+		
+		
+		
+		</div>
 		<div id="menubg"></div>
+		<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+</script>
 	</body>
 </html>
