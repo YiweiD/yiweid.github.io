@@ -27,7 +27,7 @@ else                /* send the submitted data */
     else{        
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your contact form";
-        mail("youreamil@yoursite.ca", $subject, $message, $from);
+        mail("yiwei0707@yahoo.ca", $subject, $message, $from);
         echo "Email sent!";
         }
     }  

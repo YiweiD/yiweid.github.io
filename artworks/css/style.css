@@ -40,9 +40,7 @@ nav{
 #menu{
     z-index:501;
 }
-*{
-    cursor:wait;
-}
+
 #menubg{ /*menubar bg*/
     background-color:#FBFBFB;
     position:fixed;

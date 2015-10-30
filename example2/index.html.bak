@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+	<script type='text/javascript' src='js/script.js'></script>
+	<title>Front page</title>
+	</head>
+	<body>
+		<h3>This is second example</h3>
+		<div class='container'>
+			<p>focus</p>
+			<p>focus</p>
+			<p>focus</p>
+			<p>focus</p>
+		
+		</div>
+		
+		
+		
+		
+		
+		
+	
+	</body>
+	
+	
+</html>

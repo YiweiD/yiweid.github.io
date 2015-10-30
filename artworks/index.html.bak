@@ -23,7 +23,7 @@
 		</nav>
 		</div>
 		<div class='bodyContainer'>
-			<h3>Artwork Display</h3>
+			<h3>Artwork Display?</h3>
 			<button id='type1' type='button'>Drawing</button>
 			<button id='type2' type='button'>Papercraft</button>
 			<button id='type3' type='button'>Other</button>
