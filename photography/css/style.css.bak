@@ -28,9 +28,6 @@ nav{
     z-index:100;
     left:0px;
 }
-*{
-    cursor:wait;
-}
 #menu div{
     float:left;
     padding:15px;
@@ -116,4 +113,17 @@ button{
     padding-right:10px;
     border-radius:5px;
     outline:none;
+}
+.bodyContainer img{
+    float:left;
+}
+div.bodyContainer > div.type1 > a:nth-child(7) > img{
+    clear:both;
+}
+div.bodyContainer > div.type1 > a:nth-child(5) > img{
+position:relative;
+    width: 620px;
+    height: 420px;
+    top:-220px;
+    margin-bottom:-220px;
 }

@@ -114,3 +114,14 @@ button{
     border-radius:5px;
     outline:none;
 }
+.bodyContainer img{
+    float:left;
+}
+
+div.bodyContainer > div.type1 > a:nth-child(5) > img{
+position:relative;
+    width: 620px;
+    height: 420px;
+    top:-220px;
+    margin-bottom:-220px;
+}

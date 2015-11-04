@@ -24,31 +24,39 @@
 		</div>
 		<div class='bodyContainer'>
 			<h3>Title?</h3>
-			<button id='type1' type='button'>Things</button>
-			<button id='type2' type='button'>People</button>
-			<button id='type3' type='button'>Lands</button>
+			<button id='type1' type='button'>People</button>
+			<button id='type2' type='button'>Things</button>
+			<button id='type3' type='button'>B/W</button>
 			<button id='type4' type='button'>All</button>
 			
-			<div class='type1'>
-			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/test1.jpg" width="300" height="200" alt="" /></a>
+			<div class='type1'><!--people-->
+			<a href="../images/phimg/people/1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/1.jpg" width="300" height="450" alt="" /></a>
+			<a href="../images/phimg/people/2.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/2.jpg" width="300" height="450" alt="" /></a>
+			<a href="../images/phimg/people/3.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/people/4.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/4.jpg" width="300" height="450" alt="" /></a>
+			<a href="../images/phimg/people/5.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/5.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/people/6.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/6.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/people/7.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/7.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/people/8.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/8.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/people/9.jpg" rel="prettyPhoto[gallery1]" title=""><img src="../images/phimg/people/9.jpg" width="300" height="200" alt="" /></a>
 			</div>
-			<div class='type2'>
-			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/test2.jpg" width="300" height="200" alt="" /></a>
+			<div class='type2'><!--things-->
+			<a href="../images/phimg/things/1.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/1.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/2.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/2.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/3.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/4.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/4.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/5.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/5.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/6.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/6.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/7.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/7.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/8.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/8.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/9.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/9.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/things/10.jpg" rel="prettyPhoto[gallery2]" title=""><img src="../images/phimg/things/10.jpg" width="300" height="200" alt="" /></a>
 			</div>
-			<div class='type3'>
-			<a href="../images/test2.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
-			<a href="../images/test3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/test3.jpg" width="300" height="200" alt="" /></a>
+			<div class='type3'><!--bw-->
+			<a href="../images/phimg/bw/1.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/phimg/bw/1.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/bw/2.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/phimg/bw/2.jpg" width="300" height="450" alt="" /></a>
+			<a href="../images/phimg/bw/3.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/phimg/bw/3.jpg" width="300" height="200" alt="" /></a>
+			<a href="../images/phimg/bw/4.jpg" rel="prettyPhoto[gallery3]" title=""><img src="../images/phimg/bw/4.jpg" width="300" height="200" alt="" /></a>
 			</div>
 		
 		
